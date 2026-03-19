@@ -1,0 +1,1 @@
+La imagen indica que se debe de ejecutar el node server.js en el backend para arrancar el proyecto, debido a que comprueba la conexión a la base de datos, y presionar Ctrl+C para dejar de correrla.
