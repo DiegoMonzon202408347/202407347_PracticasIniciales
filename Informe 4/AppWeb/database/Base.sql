@@ -1,3 +1,6 @@
+create database if not exists web;
+use web;
+
 CREATE TABLE usuario (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     registro_academico INT NOT NULL,
@@ -63,3 +66,6 @@ VALUES ('Programacion 1',5,'Sistemas');
 
 INSERT INTO curso_aprobado (id_usuario,id_curso,fecha_aprobacion)
 VALUES (1,1,'2025-11-10');
+
+show tables;
+select * from usuario;
